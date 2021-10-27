@@ -1,0 +1,18 @@
+print("(1)Papel")
+print("(2)Plástico")
+print("(3)Metal")
+print("(4)Vidro")
+print("(5)Madeira")
+
+n = int(input("Digite o material reciclável desejado: "))
+
+if(n == 1):
+    print("Papel")
+elif(n == 2):
+    print("Plástico")
+elif(n == 3):
+    print("Metal")
+elif(n == 4):
+    print("Vidro")
+else:
+    print("Madeira")
