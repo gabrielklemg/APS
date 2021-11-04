@@ -1,0 +1,80 @@
+print ('''Questão 1: Em quantos porcentos a madeira pode ser reaproveitada?
+        a) 50%
+        b) 40%
+        c) 80%
+        d) 75%
+        e) 100%''')
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("e"):
+    print ("Você acertou")
+else:
+    print (" você errou")
+print()
+    
+print ('''Questão 2: Por que reciclar a madeira?
+    a) Para evitar os danos causados ao meio ambiente
+    b) Para postar nas redes sociais
+    c) Para falar o quanto você ajuda no planeta
+    d) Pois está na moda
+    e) Para causar danos ao meio ambiente
+    ''')
+    
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("a"):
+    print ("Você acertou")
+else:
+    print (" você errou")
+    
+print()
+    
+print ('''Questão 3: A reciclagem da madeira pode ser transformada em móveis.
+          Quais são eles
+    a) estantes, celulares, mesas, armários, cabeceira e penteadeiras
+    b) estantes, sofás, mesas, armários, televisão e penteadeiras
+    c) estantes, sofás, mesas, cobertor, cabeceira e travesseiro
+    d) estantes, sofás, mesas, armários, cabeceira e penteadeiras
+    e) estantes, borracha, mesas, tênis, cabeceira e penteadeiras
+    ''')
+    
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("d"):
+    print ("Você acertou")
+else:
+    print (" você errou")
+    
+print()
+    
+print ('''Questão 4: serragem pode ser utilizada como:
+    a) adubo, combustível para carregamento de celular, forrar o chão para os animais e na produção de papeis
+    b) adubo, combustível para aquecimento de caldeira e rede hoteleira, forrar o chão para os animais e na produção de papeis
+    c) adubo, combustível para aquecimento de caldeira e rede hoteleira, forrar o chão para os animais e na produção de imã
+    d) adubo, combustível para aquecimento de caldeira e rede hoteleira, criador de pisos e na produção de papeis
+    e) mistura para cremes, combustível para aquecimento de caldeira e rede hoteleira, forrar o chão para os animais e na produção de papeis
+    ''')
+    
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("b"):
+    print ("Você acertou")
+else:
+    print (" você errou")
+    
+print()
+    
+print ('''Questão 5: geração de energia por biomassa serve:
+    a) Para utilizar dos combustíveis fósseis que agride o meio ambiente
+    b) para agredir o meio ambiente com combustíveis fósseis
+    c) Para destruir o planeta Terra
+    d) para substituir combustíveis fósseis que agride o meio ambiente
+    e) Para utilizar dos combustíveis fósseis que ajuda o meio ambiente
+    ''')
+    
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("d"):
+    print ("Você acertou")
+else:
+    print (" você errou")
