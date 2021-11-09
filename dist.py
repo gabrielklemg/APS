@@ -45,16 +45,18 @@ vetor = [0, 0, 0]
 vetor2 = ['papel', 'plástico', 'vidro', 'metal', 'madeira']
 
 #latitute e longitute do ponto de partida dado pelo úsuario
+print("Informe sua localização com base na latitude e longitude abaixo.")
 x = float(input('Digite sua latitute: '))
 y = float(input('Digite sua longitute: '))
 for i in range(0, 5):
     #mostrando o material
+    print("╭───────╯•╰───────╮\n")
     print(f'Material {vetor2[i]}\n')
     for j in range(0, 3):
         #fazendo o calculo da distância e colocando no vetor, quando o i mudar vai mudar de material o vetor vai receber os novos valores
         vetor[j] = distancia(x, y, matrizlo[i][j][0], matrizlo[i][j][1])
         #mostrando a distância
-        print(f'A distância é {vetor[j]:.2f} km')
+        print(f'┃➲ A distância é {vetor[j]:.2f} km')
     for j in range(0, 2):
         for c in range(j+1, 3):
             #organizando o vetor e a matriz dos lugares para que o com a menor distãncia fica na frente
@@ -67,3 +69,4 @@ for i in range(0, 5):
               matrizlu[i][c] = aux2
             #mostrando o local com menor distância
     print(f'O lugar mais próximo é o {matrizlu[i][0]} com {vetor[0]:.2f} km de distância.\n')
+    print("╰───────╮•╭───────╯")
