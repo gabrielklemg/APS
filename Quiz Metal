@@ -1,0 +1,70 @@
+print ('''Questão 1: O ferro foi descoberto ainda na pré-história, porém, o aço, como conhecemos atualmente, só foi desenvolvido em que ano?
+        a)1857 
+        b)1855 
+        c)1856 
+        ''')
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("c"):
+    print ("Você acertou")
+else:
+    print (" você errou")
+print()
+    
+print ('''Questão 2: Os metais são utilizados para a fabricação de inúmeros itens como: 
+    a)latas, móveis, peças automotivas, utensílios de cozinha, fios elétricos 
+    b)borrachas, móveis, peças automotivas, utensílios de cozinha, grafite 
+    c)latas, móveis, cadernos escolares, utensílios de cozinha, fios elétricos 
+    ''')
+    
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("a"):
+    print ("Você acertou")
+else:
+    print (" você errou")
+    
+print()
+    
+print ('''Questão 3: Os metais são classificados em dois grandes grupos:
+    a)ferrosos e não ferrosos
+    b)duros e moles 
+    c)dobraveis e não Dobraveis
+    ''')
+    
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("a"):
+    print ("Você acertou")
+else:
+    print (" você errou")
+    
+print()
+    
+print ('''Questão 4: Pois o metal pode ser reciclado quantas vezes?
+    a) uma vez  
+    b) inúmeras vezes
+    c) algumas vezes
+    ''')
+    
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("b"):
+    print ("Você acertou")
+else:
+    print (" você errou")
+    
+print()
+    
+print ('''Questão 5: Qual é o grande benefício da reciclagem de metais?
+    a)aumentar extração e beneficiamento do minério 
+    b)evitar a etapa de extração e beneficiamento do minério 
+    c)evitar a diminuição da etapa de extração e beneficiamento do minério 
+    ''')
+    
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("b"):
+    print ("Você acertou")
+else:
+    print (" você errou")
