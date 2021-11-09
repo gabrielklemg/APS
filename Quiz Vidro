@@ -1,0 +1,69 @@
+print ('''Questão 1: O vidro é obtido a partir:  
+        a)da queima da madeira
+        b)da fusão de matérias-primas 
+        c)da fusão de plásticos
+        ''')
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("b"):
+    print ("Você acertou")
+else:
+    print (" você errou")
+print()
+    
+print ('''Questão 2: Quais são tipos de Vidro?
+    a)comum, temperado, reflexivo, laminado, cristal  
+    b)comum, temperado, reflexivo, laminado, taça 
+    c)comum, temperado, espelho, laminado, cristal 
+    ''')
+    
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("a"):
+    print ("Você acertou")
+else:
+    print (" você errou")
+    
+print()
+    
+print ('''Questão 3: O que é vidro temperado? 
+    a)Utilizado em janelas de carros, fabricado com revestimento plástico para que estilhasos não se espalhem caso o vidro se quebre, assim como o vidro temperado, mas este vidro faz isso de forma mais efetiva. 
+    b)Utilizado para produção de portas e janelas, é fabricado de forma especial para não espalhar estilhaços perigosos quando quebrado e para ser mais resistênte a pressão, impacto e ao calor. 
+    c)Utilizado para produzir copos, garrafas, vasos e outros produtos, este vidro apresenta um alto porcentual reciclável. 
+    ''')
+    
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("b"):
+    print ("Você acertou")
+else:
+    print (" você errou")
+    
+print()
+    
+print ('''Questão 4: A reciclagem de vidro é feita a partir da
+    a)trituração e quebra dos resíduos de vidro de mesma cor 
+    b)trituração e derretimento dos resíduos de vidro de mesma cor 
+    c)trituração e derretimento dos resíduos de vidro de cores diferentes
+    ''')
+    
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("b"):
+    print ("Você acertou")
+else:
+    print (" você errou")
+    
+print()
+    
+print ('''Questão 5: A frase "Para cada metro cúbico de vidro fabricado a partir de fontes primárias, é necessário extrair pelo menos 7 metros cúbicos de rocha" é verdadeira ou falsa? 
+    a)verdadeira 
+    b)falsa
+    ''')
+    
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("a"):
+    print ("Você acertou")
+else:
+    print (" você errou")
