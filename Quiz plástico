@@ -1,0 +1,76 @@
+print ('''Questão 1: A composição do plástico vem:
+        a)das resinas derivadas do petróleo 
+        b)das resinas de minérios
+        c)das resinas derivadas do grafite
+        ''')
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("a"):
+    print ("Você acertou")
+else:
+    print (" você errou")
+print()
+    
+print ('''Questão 2: O primeiro plástico sintético foi desenvolvido em? 
+    a)início do século XV 
+    b)início do século XIX 
+    c)início do século XX 
+    ''')
+    
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("c"):
+    print ("Você acertou")
+else:
+    print (" você errou")
+    
+print()
+    
+print ('''Questão 3: O que é termoplásticos?
+    a)plástico que endurecem ao serem aquecidos, podendo ser moldados, 
+e quando resfriados ficam sólidos e tomam uma nova forma 
+    b)plástico que amolecem ao serem aquecidos, podendo ser moldados, 
+e quando resfriados ficam sólidos e tomam uma nova forma
+    c)plástico que amolecem ao serem aquecidos, não podendo ser moldados, 
+e quando resfriados ficam sólidos e tomam uma nova forma 
+    ''')
+    
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("b"):
+    print ("Você acertou")
+else:
+    print (" você errou")
+    
+print()
+    
+print ('''Questão 4: No início da década de 1980, o plástico passou a ser utilizado na fabricação do que?
+    a)de criação de roupas 
+    b)de produção de borrachas 
+    c)de embalagens de bebidas e alimentos 
+    ''')
+    
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("c"):
+    print ("Você acertou")
+else:
+    print (" você errou")
+    
+print()
+    
+print ('''Questão 5: O plástico é queimado liberando um calor muito forte (superior ao do carvão e próximo ao 
+produzido pelo óleo combustível) que é aproveitado na forma de energia. Porém, esta prática resulta em 
+emissão de CO 2, agravando ainda mais o efeito estufa e emissão de dioxinas, que são compostos altamente tóxicos.
+Qual é tipo de reciclagem?
+    a)RECICLAGEM MECÂNICA 
+    b)RECICLAGEM ENERGÉTICA 
+    c)RECICLAGEM QUÍMICA 
+    ''')
+    
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("b"):
+    print ("Você acertou")
+else:
+    print (" você errou")
