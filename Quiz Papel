@@ -1,0 +1,68 @@
+print ('''Questão 1: A maior parte dos papéis é feita a partir de? 
+        a)ramos e folhas 
+        b)plástico reciclado 
+        c)tronco de árvores cultivadas 
+        ''')
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("c"):
+    print ("Você acertou")
+else:
+    print ("Você errou")
+print()
+    
+print ('''Questão 2: A frase "reciclar uma tonelada de papel economiza 47 árvores e mais de 1,5 metros cúbicos de espaço em aterro." é verdadeira? 
+    a)verdadeira
+    b)falsa 
+    ''')
+    
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("b"):
+    print ("Você acertou")
+else:
+    print ("Você errou")
+    
+print()
+    
+print ('''Questão 3: No que a reciclagem de papel ajuda?
+    a)reduzir as emissões de gases de efeito estufa que podem contribuir para as mudanças climáticas. 
+    b)aumentar as emissões de gases de efeito estufa que podem contribuir para as mudanças climáticas. 
+    c)reduzir as emissões de gases de efeito estufa que não podem contribuir para as mudanças climáticas. 
+    ''')
+    
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("a"):
+    print ("Você acertou")
+else:
+    print ("Você errou")
+    
+print()
+    
+print ('''Questão 4: Qual a sequência correta?
+    a)separar o papel por tipo e classe -> lavar o papel para remover cola, tinta -> misturar com água para virar polpa -> prensar, secar e enrolar em grandes folhas finas 
+    b)misturar com água para virar polpa -> lavar o papel para remover cola, tinta -> separar o papel por tipo e classe -> prensar, secar e enrolar em grandes folhas finas 
+    c)separar o papel por tipo e classe -> lavar o papel para adicionar cola, tinta -> misturar com água para virar polpa -> prensar, secar e enrolar em grandes folhas finas 
+    ''')
+    
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("a"):
+    print ("Você acertou")
+else:
+    print ("Você errou")
+    
+print()
+    
+print ('''Questão 5: A frase "As fibras de melhor qualidade são utilizadas para o papel-capa para as partes externas. As de qualidade inferior servem para produzir o papel-miolo." é verdadeira?
+    a)verdadeira 
+    b)falsa 
+    ''')
+    
+resp = input("Escola a alternativa correta: ")
+    
+if resp == ("a"):
+    print ("Você acertou")
+else:
+    print ("Você errou")
