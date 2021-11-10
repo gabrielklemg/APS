@@ -86,7 +86,7 @@ def cata_treco():
         if x == 'Sim':
                 return(cata_treco())
         if x == 'Não':
-                return("Finalizando...")
+                return(print("Finalizando..."))
         
         if programação_cata_treco == 'Mar':
                 programação = (''' 
@@ -130,7 +130,8 @@ def cata_treco():
         x = input("Deseja consultar outra programação? ")
         if x == 'Sim':
                 return(cata_treco())
-        
+        if x == 'Não':
+                return(print("Finalizando..."))
 
         if programação_cata_treco == "Abr":
                 programação = (''' 
@@ -173,7 +174,8 @@ def cata_treco():
         x = input("Deseja consultar outra programação? ")
         if x == 'Sim':
                 return(cata_treco())
-        
+        if x == 'Não':
+                return(print("Finalizando..."))
 
         if programação_cata_treco == "Mai":
                 programação = (''' 
@@ -217,7 +219,9 @@ def cata_treco():
         x = input("Deseja consultar outra programação? ")
         if x == 'Sim':
                 return(cata_treco())
-        
+        if x == 'Não':
+                return(print("Finalizando..."))
+
         if programação_cata_treco == "Jun":
                 programação = (''' 
                 ==== Cata-Treco Junho 2021 ==== 
@@ -259,7 +263,9 @@ def cata_treco():
         x = input("Deseja consultar outra programação? ")
         if x == 'Sim':
                 return(cata_treco())
-        
+        if x == 'Não':
+                return(print("Finalizando..."))
+
         if programação_cata_treco == "Jul":
                 programação = (''' 
                 ==== Cata-Treco Julho 2021 ==== 
@@ -302,7 +308,8 @@ def cata_treco():
         x = input("Deseja consultar outra programação? ")
         if x == 'Sim':
                 return(cata_treco())
-        
+        if x == 'Não':
+                return(print("Finalizando..."))
 
         if programação_cata_treco == "Ago":
                 programação = (''' 
@@ -345,7 +352,8 @@ def cata_treco():
         x = input("Deseja consultar outra programação? ")
         if x == 'Sim':
                 return(cata_treco())
-        
+        if x == 'Não':
+                return(print("Finalizando..."))
         
 
         if programação_cata_treco == "Set":
@@ -389,7 +397,8 @@ def cata_treco():
         x = input("Deseja consultar outra programação? ")
         if x == 'Sim':
                 return(cata_treco())
-        
+        if x == 'Não':
+                return(print("Finalizando..."))
         
 
         if programação_cata_treco == "Out":
@@ -434,7 +443,8 @@ def cata_treco():
         x = input("Deseja consultar outra programação? ")
         if x == 'Sim':
                 return(cata_treco())
-        
+        if x == 'Não':
+                return(print("Finalizando..."))
         
 
         if programação_cata_treco == "Nov":
@@ -478,7 +488,9 @@ def cata_treco():
         x = input("Deseja consultar outra programação? ")
         if x == 'Sim':
                 return(cata_treco())
-        
+        if x == 'Não':
+                return(print("Finalizando..."))
+
         if programação_cata_treco == "Dez":
                 programação = (''' 
                 ==== Cata-Treco Dezembro 2021 ==== 
@@ -521,4 +533,7 @@ def cata_treco():
         x = input("Deseja consultar outra programação? ")
         if x == 'Sim':
                 return(cata_treco())
+        if x == 'Não':
+                return(print("Finalizando..."))
+                
 cata_treco()
