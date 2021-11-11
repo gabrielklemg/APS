@@ -1,8 +1,10 @@
 def cata_treco():
-        meses = print('Jan, Fev, Mar, Abr, Mai, Jun, Jul, Ago, Set, Out, Nov, Dez')
-        programação_cata_treco = input('Que mês deseja selecionar para analisar a programação? ')
-        if programação_cata_treco == 'Jan':
-                programação = (''' 
+
+    print('Jan, Fev, Mar, Abr, Mai, Jun, Jul, Ago, Set, Out, Nov, Dez')
+    programacao_cata_treco = int(input('Que mês deseja selecionar para analisar a programação? '))
+
+    if (programacao_cata_treco == 1):
+        programacao = (''' 
                 ==== Cata-Treco Janeiro 2021 ====  
                 Sexta-feira     01/01/2021 ANO NOVO  
                 Sábado              02/01/2021 AR 10 
@@ -36,18 +38,9 @@ def cata_treco():
                 Sábado              30/01/2021 AR 7
                 Domingo	        31/01/2021 ----
         ''')
-                print(programação)
-        else:
-                print("Erro: Ação Inválida!")
-        
-        x = input("Deseja consultar outra programação? ")
-        if x == 'Sim':
-                return(cata_treco())
-        if x == 'Não':
-                return(print("Finalizando..."))
 
-        if programação_cata_treco == 'Fev':
-                programação = (''' 
+    elif (programacao_cata_treco == 2):
+        programacao = (''' 
                 ==== Cata-Treco Fevereiro 2021 ==== 
                 Segunda-feira	01/02/2021 AR 15
                 Terça-feira	    02/02/2021 AR 12
@@ -77,19 +70,10 @@ def cata_treco():
                 Sexta-feira	    26/02/2021 AR 1
                 sábado	        27/02/2021 AR 2
                 Domingo	        28/02/2021	
-        ''')                        
-                print(programação)
-        else:
-                print("Erro: Ação Inválida!")
-        
-        x = input("Deseja consultar outra programação? ")
-        if x == 'Sim':
-                return(cata_treco())
-        if x == 'Não':
-                return(print("Finalizando..."))
-        
-        if programação_cata_treco == 'Mar':
-                programação = (''' 
+        ''')
+
+    elif (programacao_cata_treco == 3):
+        programacao = (''' 
                 ==== Cata-Treco Março 2021 ==== 
                 Segunda-feira   01/03/2021 AR 3
                 Terça-feira     02/03/2021 AR 4
@@ -123,18 +107,9 @@ def cata_treco():
                 Terça-feira	    30/03/2021 BARÃO
                 Quarta-feira	31/03/2021 AR 11
         ''')
-                print(programação)
-        else:
-                print("Erro: Ação Inválida!")
-        
-        x = input("Deseja consultar outra programação? ")
-        if x == 'Sim':
-                return(cata_treco())
-        if x == 'Não':
-                return(print("Finalizando..."))
 
-        if programação_cata_treco == "Abr":
-                programação = (''' 
+    elif (programacao_cata_treco == 4):
+        programacao = (''' 
                 ==== Cata-Treco Abril 2021 ====   
                 Quinta-feira    01/04/2021 PADRE ANCHIETA
                 Sexta-feira     02/04/2021 PAIXÃO DE CRISTO
@@ -166,19 +141,10 @@ def cata_treco():
                 Quarta-feira	28/04/2021 AR 7
                 Quinta-feira	29/04/2021 AR 15
                 Sexta-feira	    30/04/2021 AR 12
-        ''')  
-                print(programação)
-        else:
-                print("Erro: Ação Inválida!")
-        
-        x = input("Deseja consultar outra programação? ")
-        if x == 'Sim':
-                return(cata_treco())
-        if x == 'Não':
-                return(print("Finalizando..."))
+        ''')
 
-        if programação_cata_treco == "Mai":
-                programação = (''' 
+    elif (programacao_cata_treco == 5):
+        programacao = (''' 
                 ==== Cata-Treco Maio 2021 ==== 
                 Sabado          01/05/2021 DIA DO TRABALHO
                 Domingo         02/05/2021	
@@ -212,18 +178,9 @@ def cata_treco():
                 Domingo	        30/05/2021	
                 Segunda-feira	31/05/2021 AR 14
         ''')
-                print(programação)
-        else:
-                print("Erro: Ação Inválida!")
-        
-        x = input("Deseja consultar outra programação? ")
-        if x == 'Sim':
-                return(cata_treco())
-        if x == 'Não':
-                return(print("Finalizando..."))
 
-        if programação_cata_treco == "Jun":
-                programação = (''' 
+    elif (programacao_cata_treco == 6):
+        programacao = (''' 
                 ==== Cata-Treco Junho 2021 ==== 
                 Terça-feira     01/06/2021 AR 8
                 Quarta -feria	02/06/2021 AR 9
@@ -256,18 +213,9 @@ def cata_treco():
                 Terça-feira 	29/06/2021 PADRE ANCHIETA
                 Quarta -feria	30/06/2021 AR 5
         ''')
-                print(programação)
-        else:
-                print("Erro: Ação Inválida!")
-        
-        x = input("Deseja consultar outra programação? ")
-        if x == 'Sim':
-                return(cata_treco())
-        if x == 'Não':
-                return(print("Finalizando..."))
 
-        if programação_cata_treco == "Jul":
-                programação = (''' 
+    elif (programacao_cata_treco == 7):
+        programacao = (''' 
                 ==== Cata-Treco Julho 2021 ==== 
                 Quinta Feira    01/07/2021 AR 6
                 Sexta-feira	    02/07/2021 AR 7
@@ -301,18 +249,9 @@ def cata_treco():
                 Sexta-feira	    30/07/2021 AR 3
                 Sábado	        31/07/2021 AR 4
         ''')
-                print(programação)
-        else:
-                print("Erro: Ação Inválida!")
-        
-        x = input("Deseja consultar outra programação? ")
-        if x == 'Sim':
-                return(cata_treco())
-        if x == 'Não':
-                return(print("Finalizando..."))
 
-        if programação_cata_treco == "Ago":
-                programação = (''' 
+    if (programacao_cata_treco == 8):
+        programacao = (''' 
                 ==== Cata-Treco Agosto 2021 ==== 
                 Segunda-feira	02/08/2021 SOUSAS
                 Terça-feira	    03/08/2021 AR 14
@@ -345,19 +284,9 @@ def cata_treco():
                 Segunda-feira	30/08/2021 AR 11
                 Terça-feira	    31/08/2021 PADRE ANCHIETA
         ''')
-                print(programação)
-        else:
-                print("Erro: Ação Inválida!")
-        
-        x = input("Deseja consultar outra programação? ")
-        if x == 'Sim':
-                return(cata_treco())
-        if x == 'Não':
-                return(print("Finalizando..."))
-        
 
-        if programação_cata_treco == "Set":
-                programação = (''' 
+    elif (programacao_cata_treco == 9):
+        programacao = (''' 
                 ==== Cata-Treco Setembro 2021 ==== 
                 Quarta -feria	01/09/2021 AR 5
                 Quinta Feira 	02/09/2021 AR 6
@@ -390,19 +319,9 @@ def cata_treco():
                 Quarta -feria	29/09/2021 AR 13
                 Quinta Feira 	30/09/2021 AR 1
         ''')
-                print(programação)
-        else:
-                print("Erro: Ação Inválida!")
-        
-        x = input("Deseja consultar outra programação? ")
-        if x == 'Sim':
-                return(cata_treco())
-        if x == 'Não':
-                return(print("Finalizando..."))
-        
 
-        if programação_cata_treco == "Out":
-                programação = (''' 
+    elif (programacao_cata_treco == 10):
+        programacao = (''' 
                 ==== Cata-Treco Outubro 2021 ==== 
                 Sexta-feira     01/10/2021 AR 2
                 Sábado	        02/10/2021 AR 3
@@ -436,19 +355,9 @@ def cata_treco():
                 Sábado	        30/10/2021 AR 9
                 Domingo	        31/10/2021	
         ''')
-                print(programação)
-        else:
-                print("Erro: Ação Inválida!")
-        
-        x = input("Deseja consultar outra programação? ")
-        if x == 'Sim':
-                return(cata_treco())
-        if x == 'Não':
-                return(print("Finalizando..."))
-        
 
-        if programação_cata_treco == "Nov":
-                programação = (''' 
+    elif (programacao_cata_treco == 11):
+        programacao = (''' 
                 ==== Cata-Treco Novembro 2021 ==== 
                 Segunda-feira	01/11/2021 AR 10
                 Terça-feira	    02/11/2021 FINADOS
@@ -481,18 +390,9 @@ def cata_treco():
                 Segunda-feira	29/11/2021 PADRE ANCHIETA
                 Terça-feira	    30/11/2021 AR 5
         ''')
-                print(programação)
-        else:
-                print("Erro: Ação Inválida!")
-        
-        x = input("Deseja consultar outra programação? ")
-        if x == 'Sim':
-                return(cata_treco())
-        if x == 'Não':
-                return(print("Finalizando..."))
 
-        if programação_cata_treco == "Dez":
-                programação = (''' 
+    elif (programacao_cata_treco == 12):
+        programacao = (''' 
                 ==== Cata-Treco Dezembro 2021 ==== 
                 Quarta -feria	01/12/2021 AR 6
                 Quinta Feira 	02/12/2021 AR 7
@@ -526,14 +426,21 @@ def cata_treco():
                 Quinta Feira 	30/12/2021 AR 2
                 Sexta-feira	    31/12/2021 AR 3
         ''')
-                print(programação)
-        else:
-                print("Erro: Ação Inválida!")
-        
-        x = input("Deseja consultar outra programação? ")
-        if x == 'Sim':
-                return(cata_treco())
-        if x == 'Não':
-                return(print("Finalizando..."))
-                
+
+    else:
+        print("Erro: Ação Inválida!")
+
+    try:
+        print(programacao)
+    except:
+        print("\n")
+
+    x = input("Deseja consultar outra programação? ")
+    if (x == 'Sim') or (x == 'sim') or (x == '1') or (x == 's') or (x == 'S'):
+        print("")
+        return (cata_treco())
+    else:
+        exit("Fim")
+
+
 cata_treco()
